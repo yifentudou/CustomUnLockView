@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomUnLockView">
+        <!-- 一行点的个数，共有count*count个圆点密码-->
+        <attr name="count" format="integer" />
+        <!-- 文本提示的颜色-->
+        <attr name="color_text_tips" format="color" />
+        <!-- 正常密码圆点及线的颜色-->
+        <attr name="color_normal" format="color" />
+        <!-- 按压密码圆点及线的颜色-->
+        <attr name="color_press" format="color" />
+        <!-- 密码错误圆点及线的颜色-->
+        <attr name="color_error" format="color" />
+        <!-- 最大锁定次数-->
+        <attr name="max_lock_times" format="integer" />
+    </declare-styleable>
+</resources>
